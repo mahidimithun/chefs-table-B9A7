@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "food_name": "Spaghetti Carbonara",
+        "description_food": "A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.",
+        "ingredients": [
+            "200g spaghetti",
+            "100g pancetta",
+            "2 large eggs",
+            "50g Pecorino cheese",
+            "50g Parmesan cheese",
+            "2 cloves garlic",
+            "Salt",
+            "Black pepper"
+        ],
+        "food_weight": "400g",
+        "cooking_time": 20,
+        "calories": 500,
+        "food_img": "https://plus.unsplash.com/premium_photo-1674511582428-58ce834ce172?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 2,
+        "food_name": "Chicken Caesar Salad",
+        "description_food": "A popular salad featuring grilled chicken, romaine lettuce, croutons, and Caesar dressing.",
+        "ingredients": [
+            "2 chicken breasts",
+            "1 head romaine lettuce",
+            "50g croutons",
+            "30g Parmesan cheese",
+            "4 tablespoons Caesar dressing",
+            "Salt",
+            "Black pepper"
+        ],
+        "food_weight": "350g",
+        "cooking_time": 30,
+        "calories": 400,
+        "food_img": "https://images.unsplash.com/photo-1551248429-40975aa4de74?q=80&w=1980&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 3,
+        "food_name": "Vegetable Stir Fry",
+        "description_food": "A quick and healthy stir fry made with a variety of fresh vegetables and a savory sauce.",
+        "ingredients": [
+            "1 bell pepper",
+            "1 carrot",
+            "100g broccoli",
+            "50g snap peas",
+            "1 onion",
+            "2 cloves garlic",
+            "2 tablespoons soy sauce",
+            "1 tablespoon olive oil",
+            "Salt",
+            "Black pepper"
+        ],
+        "food_weight": "300g",
+        "cooking_time": 15,
+        "calories": 200,
+        "food_img": "https://img.freepik.com/free-photo/top-view-delicious-food-table_23-2150857996.jpg?size=626&ext=jpg&ga=GA1.1.1978076574.1697130604&semt=ais_user"
+    },
+    {
+        "id": 4,
+        "food_name": "Beef Tacos",
+        "description_food": "Mexican-style tacos filled with seasoned beef, lettuce, cheese, and salsa.",
+        "ingredients": [
+            "200g ground beef",
+            "1 packet taco seasoning",
+            "8 taco shells",
+            "100g lettuce",
+            "50g shredded cheese",
+            "100g salsa",
+            "50g sour cream"
+        ],
+        "food_weight": "400g",
+        "cooking_time": 25,
+        "calories": 600,
+        "food_img": "https://img.freepik.com/free-photo/close-up-delicious-tacos_23-2150831119.jpg?size=626&ext=jpg&ga=GA1.1.1978076574.1697130604&semt=ais_user"
+    },
+    {
+        "id": 5,
+        "food_name": "Margherita Pizza",
+        "description_food": "A traditional Italian pizza topped with tomatoes, mozzarella cheese, and fresh basil.",
+        "ingredients": [
+            "1 pizza dough",
+            "200g tomato sauce",
+            "200g mozzarella cheese",
+            "10g fresh basil",
+            "Salt",
+            "Olive oil"
+        ],
+        "food_weight": "500g",
+        "cooking_time": 15,
+        "calories": 700,
+        "food_img": "https://images.unsplash.com/photo-1600028068383-ea11a7a101f3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGl6emElMjBtYXJnaGVyaXRhfGVufDB8fDB8fHww"
+    },
+    {
+        "id": 6,
+        "food_name": "Grilled Salmon",
+        "description_food": "A simple and healthy grilled salmon fillet seasoned with herbs and lemon.",
+        "ingredients": [
+            "2 salmon fillets",
+            "1 lemon",
+            "2 tablespoons olive oil",
+            "Salt",
+            "Black pepper",
+            "1 tablespoon fresh dill"
+        ],
+        "food_weight": "300g",
+        "cooking_time": 20,
+        "calories": 350,
+        "food_img": "https://images.unsplash.com/photo-1611599537845-1c7aca0091c0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JpbGxlZCUyMHNhbG1vbnxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+        "id": 7,
+        "food_name": "Chocolate Chip Cookies",
+        "description_food": "Classic cookies filled with delicious chocolate chips.",
+        "ingredients": [
+            "200g flour",
+            "100g sugar",
+            "100g brown sugar",
+            "100g butter",
+            "1 egg",
+            "1 teaspoon vanilla extract",
+            "100g chocolate chips",
+            "1/2 teaspoon baking soda",
+            "1/2 teaspoon salt"
+        ],
+        "food_weight": "400g",
+        "cooking_time": 12,
+        "calories": 250,
+        "food_img": "https://plus.unsplash.com/premium_photo-1675435646468-5c3b3e550331?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+]
