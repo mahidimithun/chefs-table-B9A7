@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 
 const PrepareCooking = ({ preparedCookingList }) => {
 
-    console.log('Prepare food', preparedCookingList);
 
     return (
         <div className='bg-[#28282808] rounded-lg'>
@@ -28,11 +27,14 @@ const PrepareCooking = ({ preparedCookingList }) => {
                 </div>
 
 
+
+
             </div>
 
-            {/* <h1> </h1> */}
+
 
         </div>
+
     );
 };
 

@@ -11,6 +11,12 @@ function App() {
   const [cooking, setCooking] = useState([]);
   const [newCookingId, setnewCookingId] = useState(0)
 
+  const [cookingTime, setCookingTime] = useState(0)
+
+
+  const [calculateCalories, setCalculateCalories] = useState(0)
+
+
   const [preparedCookingList, setPreparedCookingList] = useState([]);
 
   const handleAddToCooking = blog => {
@@ -20,7 +26,7 @@ function App() {
 
 
 
-  const handleToPrepareCooking = (id) => {
+  const handleToPrepareCooking = (id, cooking_time, calories) => {
 
     const prepareCookingId = id;
     setnewCookingId(prepareCookingId);
@@ -31,12 +37,19 @@ function App() {
     const prepareCooking = cooking.filter(cooking => cooking.id !== id);
     setCooking(prepareCooking);
 
-    // show food in prepare section
     const prepareCookingFood = cooking.filter(cooking => cooking.id === id);
-    // console.log('add list', prepareCookingFood);
+
     const prepareCookingArray = [...preparedCookingList, prepareCookingFood];
     setPreparedCookingList(prepareCookingArray);
-    // console.log('my food array', prepareCookingArray);
+
+    // calculate cooking time and calories
+
+    const newCookingTime = cookingTime + cooking_time;
+    setCookingTime(newCookingTime);
+
+    const newCalories = calculateCalories + calories;
+    setCalculateCalories(newCalories);
+
 
 
 
@@ -51,7 +64,14 @@ function App() {
         <Firstsection></Firstsection>
         <div className='md:flex'>
           <Blogs handleAddToCooking={handleAddToCooking}  ></Blogs>
-          <Cooks cooking={cooking} handleToPrepareCooking={handleToPrepareCooking} newCookingId={newCookingId} preparedCookingList={preparedCookingList} ></Cooks>
+          <Cooks
+            cooking={cooking}
+            handleToPrepareCooking={handleToPrepareCooking}
+            newCookingId={newCookingId}
+            preparedCookingList={preparedCookingList}
+            cookingTime={cookingTime}
+            calculateCalories={calculateCalories}
+          ></Cooks>
 
         </div>
 

@@ -18,7 +18,7 @@ const Cook = ({ cooking, handleToPrepareCooking }) => {
                             <td>{cooking_time} minutes</td>
                             <td>{calories}</td>
                             <td>
-                                <button onClick={() => handleToPrepareCooking(id)}
+                                <button onClick={() => handleToPrepareCooking(id, cooking_time, calories)}
                                     className="btn bg-[#0BE58A] w-10 md:w-16 lg:w-5/6 xl:w-20 xl:ml-3 md:px-10 lg:px-3">
                                     Preparing
                                 </button>

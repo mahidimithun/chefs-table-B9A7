@@ -1,8 +1,9 @@
 import Cook from '../Cook/Cook'
 import PropTypes from 'prop-types'
 import PrepareCooking from '../PrepareCooking/PrepareCooking'
+import Calculate from '../Calculate/Calculate';
 
-const Cooks = ({ cooking, handleToPrepareCooking, newCookingId, preparedCookingList }) => {
+const Cooks = ({ cooking, handleToPrepareCooking, newCookingId, preparedCookingList, cookingTime, calculateCalories }) => {
 
 
     return (
@@ -52,6 +53,14 @@ const Cooks = ({ cooking, handleToPrepareCooking, newCookingId, preparedCookingL
                     preparedCookingList.map((preparedCookingList, idx) => <PrepareCooking key={idx} preparedCookingList={preparedCookingList} cooking={cooking} newCookingId={newCookingId} ></PrepareCooking>)
                 }
 
+                <Calculate
+                    cookingTime={cookingTime}
+                    calculateCalories={calculateCalories}
+
+                >
+
+                </Calculate>
+
 
 
 
@@ -71,7 +80,9 @@ Cooks.propTypes = {
     cooking: PropTypes.array,
     handleToPrepareCooking: PropTypes.func,
     newCookingId: PropTypes.number,
-    preparedCookingList: PropTypes.array
+    preparedCookingList: PropTypes.array,
+    cookingTime: PropTypes.number,
+    calculateCalories: PropTypes.number
 
 }
 
