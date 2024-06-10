@@ -81,7 +81,7 @@ const Blog = ({ blog, handleAddToCooking }) => {
 
 Blog.propTypes = {
     blog: PropTypes.object.isRequired,
-    handleAddToCooking: PropTypes.func,
+    handleAddToCooking: PropTypes.func
 }
 
 export default Blog;
